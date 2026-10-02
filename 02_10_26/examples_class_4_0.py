@@ -1,0 +1,12 @@
+x = int(input("Give me an integer value: "))
+y = float(input("Give me a floating point value: "))
+z = input("Give me a word: ")
+
+print(x)
+print(y)
+print(z)
+print()
+print(x, y, z, sep="...")
+print()
+print("The value of x is", x)
+print(f'The value of x is {x+1} and the value of y is {y}')
